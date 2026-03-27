@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Строительство дома — это доверие. Мы относимся к нему серьёзно: открыто рассказываем о процессе, соблюдаем сроки и не оставляем клиента наедине с проблемами.
+              Профессиональный опыт в строительстве более 20 лет.
             </p>
 
             {philosophyItems.map((item, index) => (
