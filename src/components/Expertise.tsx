@@ -57,15 +57,19 @@ export function Expertise() {
     <section id="services" ref={sectionRef} className="py-32 md:py-29">
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-3xl mb-20">
-          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Полный цикл</HighlightedText> работ
-            <br />
-            под ключ
+            <HighlightedText>Наши услуги</HighlightedText>
           </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Строим как по собственным готовым проектам, так и разрабатываем индивидуальные проекты. Полный цикл строительства.
-          </p>
+          <ol className="text-muted-foreground text-lg leading-relaxed space-y-2 list-decimal list-inside">
+            <li>Разработка индивидуальных проектов домов</li>
+            <li>Строительство домов под ключ</li>
+            <li>Строительство гражданских и промышленных объектов</li>
+            <li>Ремонт домов</li>
+            <li>Ремонт квартир под ключ</li>
+            <li>Ремонт санузла под ключ</li>
+            <li>Электромонтажные работы</li>
+            <li>Сантехнические работы</li>
+          </ol>
         </div>
 
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-16">
