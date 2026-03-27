@@ -119,12 +119,29 @@ export function Hero() {
   return (
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0 bg-white" />
-      <div className="absolute inset-0 z-0 flex items-start justify-center pt-24">
+      <div className="absolute inset-0 z-0 flex flex-col items-center justify-start pt-16">
         <img
           src="https://cdn.poehali.dev/projects/95812d9d-6ac2-486f-82c7-d023927f032c/bucket/bdf036ed-044e-40b2-9fab-3a614c2df12a.jpg"
           alt="ДПС ДомПроектСтрой"
-          className="w-72 h-72 md:w-96 md:h-96 object-contain"
+          className="w-64 h-64 md:w-80 md:h-80 object-contain"
         />
+        <h1 className="text-2xl md:text-4xl font-bold text-stone-800 mt-4 text-center">
+          Строим и проектируем дома
+        </h1>
+        <div className="flex flex-col sm:flex-row items-center gap-4 mt-8">
+          <a
+            href="tel:+79000000000"
+            className="text-xl font-semibold text-stone-700 hover:text-stone-900 transition-colors"
+          >
+            +7 (900) 000-00-00
+          </a>
+          <a
+            href="#contact"
+            className="bg-stone-800 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-stone-700 transition-colors"
+          >
+            Связаться с нами
+          </a>
+        </div>
       </div>
 
       <div
