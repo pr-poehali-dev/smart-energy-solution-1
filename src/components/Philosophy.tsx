@@ -57,7 +57,7 @@ export function Philosophy() {
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
               Строим
               <br />
-              <HighlightedText>честно</HighlightedText>
+              <HighlightedText>качественно</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
