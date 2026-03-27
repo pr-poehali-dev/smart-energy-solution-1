@@ -4,22 +4,21 @@ import { HighlightedText } from "./HighlightedText"
 const philosophyItems = [
   {
     title: "Всё включено",
-    description:
-      "От разработки проекта до сдачи ключей — мы ведём строительство полностью, без сюрпризов и скрытых доплат.",
+    description: "Полный цикл строительства от фундамента до внутренней отделки.",
   },
   {
-    title: "Фиксированная цена",
+    title: "Проект в подарок",
     description:
-      "Договор с чётко прописанной стоимостью. Бюджет не меняется в процессе строительства — мы держим слово.",
+      "Строим как по собственным готовым проектам, так и разрабатываем индивидуальные проекты. Проект дома в подарок.",
   },
   {
     title: "Собственные бригады",
     description:
-      "Строим своими силами без субподрядчиков. Полный контроль качества на каждом этапе работ.",
+      "Строим своими силами без субподрядчиков. Полный контроль качества на каждом этапе работ. Авторский надзор.",
   },
   {
     title: "Гарантия 5 лет",
-    description: "Строим как по собственным готовым проектам, так и разрабатываем индивидуальные проекты. Полный цикл строительства.",
+    description: "",
   },
 ]
 
@@ -53,7 +52,7 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наш подход</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Комплексный</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
               Строим
               <br />
