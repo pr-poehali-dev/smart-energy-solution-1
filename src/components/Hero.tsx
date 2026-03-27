@@ -143,9 +143,9 @@ export function Hero() {
             ref={titleRef}
             className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
           >
-            {"Строим дома"}
+            {"Дом Проект"}
             <br />
-            <span className="text-orange-200">{"вашей мечты"}</span>
+            <span className="text-orange-200">{"Строй"}</span>
           </h1>
         </div>
       </div>
