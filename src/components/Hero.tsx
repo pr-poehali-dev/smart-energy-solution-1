@@ -126,7 +126,7 @@ export function Hero() {
           className="w-64 h-64 md:w-80 md:h-80 object-contain"
         />
         <h1 className="text-2xl md:text-4xl font-bold text-stone-800 mt-4 text-center">
-          Строим и проектируем дома
+          Проектируем и строим современные дома из газоблока в Кирове
         </h1>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-8">
           <a
