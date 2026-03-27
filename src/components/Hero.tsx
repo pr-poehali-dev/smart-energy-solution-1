@@ -130,10 +130,10 @@ export function Hero() {
         </h1>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-8">
           <a
-            href="tel:+79000000000"
+            href="tel:+79123665858"
             className="text-xl font-semibold text-stone-700 hover:text-stone-900 transition-colors"
           >
-            +7 (900) 000-00-00
+            +7 (912) 366-58-58
           </a>
           <a
             href="#contact"
