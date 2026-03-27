@@ -118,7 +118,7 @@ export function Hero() {
 
   return (
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 z-0 bg-stone-900" />
+      <div className="absolute inset-0 z-0 bg-white" />
       <div className="absolute inset-0 z-0 flex items-start justify-center pt-24">
         <img
           src="https://cdn.poehali.dev/projects/95812d9d-6ac2-486f-82c7-d023927f032c/bucket/bdf036ed-044e-40b2-9fab-3a614c2df12a.jpg"
