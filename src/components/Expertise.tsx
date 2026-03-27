@@ -61,8 +61,8 @@ export function Expertise() {
             <HighlightedText>Наши услуги</HighlightedText>
           </h2>
           <ol className="text-muted-foreground text-lg leading-relaxed space-y-2 list-decimal list-inside">
-            <li>Разработка индивидуальных проектов домов</li>
             <li>Строительство домов из газоблока под ключ</li>
+            <li>Разработка индивидуальных проектов</li>
             <li>Строительство гражданских и промышленных объектов</li>
             <li>Ремонт домов</li>
             <li>Ремонт квартир под ключ</li>
